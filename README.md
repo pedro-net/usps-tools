@@ -1,10 +1,10 @@
 # Python USPS API Tools
 
-This project is a Python implementation of USPS API Tools <https://www.usps.com/business/web-tools-apis/documentation-updates.htm>.
+This project is a Python implementation of [USPS API Tools](https://www.usps.com/business/web-tools-apis/documentation-updates.htm).
 
 Implemented in this library:
 
-  - [Price Calculator APIs]<https://www.usps.com/business/web-tools-apis/rate-calculator-api_files/rate-calculator-api.htm> (_Domestic Price Calculator_ and _International Price Calculator_)
+  - [Price Calculator APIs](https://www.usps.com/business/web-tools-apis/rate-calculator-api_files/rate-calculator-api.htm) (_Domestic Price Calculator_ and _International Price Calculator_)
 
 Only a portion of the USPS API has been implemented. Contributions are welcome.
 
@@ -132,7 +132,7 @@ python setup.py compile_catalog
 
 # Contribution
 
-Any contribution are welcome. This project follows [Semantic Versioning]<https://semver.org/>.
+Any contribution are welcome. This project follows [Semantic Versioning](https://semver.org/).
 
 # License
 
