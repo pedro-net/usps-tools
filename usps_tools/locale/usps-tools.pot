@@ -1,0 +1,43 @@
+# Translations template for usps-tools.
+# Copyright (C) 2021 PedroVagner.com
+# This file is distributed under the same license as the usps-tools project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: usps-tools 0.1.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-03-02 16:01-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: usps_tools/exceptions.py:15
+msgid "An error happened in UspsTools."
+msgstr ""
+
+#: usps_tools/exceptions.py:87
+msgid "Validation error."
+msgstr ""
+
+#: usps_tools/price_calculator.py:83
+msgid "Fail to get USPS domestic freight."
+msgstr ""
+
+#: usps_tools/price_calculator.py:95
+msgid "Please enter a valid ZIP Code for the destination."
+msgstr ""
+
+#: usps_tools/price_calculator.py:97
+msgid "The entered weight must be less than 16 ounces."
+msgstr ""
+
+#: usps_tools/price_calculator.py:170
+msgid "Fail to get USPS international freight."
+msgstr ""
+

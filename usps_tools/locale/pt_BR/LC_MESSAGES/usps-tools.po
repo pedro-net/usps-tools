@@ -1,0 +1,44 @@
+# Portuguese (Brazil) translations for usps-tools.
+# Copyright (C) 2021 PedroVagner.com
+# This file is distributed under the same license as the usps-tools project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: usps-tools 0.1.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-03-02 16:01-0300\n"
+"PO-Revision-Date: 2021-02-20 15:52-0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt_BR\n"
+"Language-Team: pt_BR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: usps_tools/exceptions.py:15
+msgid "An error happened in UspsTools."
+msgstr "Um erro aconteceu no UspsTools."
+
+#: usps_tools/exceptions.py:87
+msgid "Validation error."
+msgstr "Erro de validação."
+
+#: usps_tools/price_calculator.py:83
+msgid "Fail to get USPS domestic freight."
+msgstr "Falha ao obter frete doméstico do USPS."
+
+#: usps_tools/price_calculator.py:95
+msgid "Please enter a valid ZIP Code for the destination."
+msgstr "Por favor insira um CEP de destino válido."
+
+#: usps_tools/price_calculator.py:97
+msgid "The entered weight must be less than 16 ounces."
+msgstr "O peso inserido precisa ser menos que 16 onças."
+
+#: usps_tools/price_calculator.py:170
+msgid "Fail to get USPS international freight."
+msgstr "Falha ao obter o frete internacional do USPS."
+
