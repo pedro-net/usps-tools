@@ -1,7 +1,17 @@
-*.pyc
-*.DS_Store
+#
+# IDEs and editors
+#
 /.idea/
+/.vscode/
+#
+# Operational Systems
+#
+*.DS_Store
 .directory
+#
+# Python
+#
+*.pyc
 /dist/
 /*egg-info/
 *.mo

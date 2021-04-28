@@ -1,7 +1,7 @@
 from typing import List
 from xml.etree import ElementTree
 import requests
-from . import exceptions, models, util
+from . import exceptions, models
 from .i18n import _
 
 
@@ -103,7 +103,7 @@ class PriceCalculator:
                     class_id = int(pack_service.attrib['CLASSID'])
                     services.append(models.Service.get_instance({
                         'unique_id': class_id,
-                        'name': util.DomesticServiceName(class_id).display_name,
+                        'name': pack_service.find('MailService').text,
                         'is_international': False,
                         'rate': pack_service.find('Rate').text,
                     }))
@@ -194,7 +194,7 @@ class PriceCalculator:
                     service_id = int(pack_service.attrib['ID'])
                     services.append(models.Service.get_instance({
                         'unique_id': service_id,
-                        'name': util.InternationalServiceName(service_id).display_name,
+                        'name': pack_service.find('SvcDescription').text,
                         'rate': pack_service.find('Postage').text,
                         'is_international': True,
                         'extra_services': extra_services,
